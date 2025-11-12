@@ -1,40 +1,6 @@
 title: EOU Fledglings Meeting 2026
 description: Gdańsk · 27–29 March 2026
-url: "https://<your-username>.github.io"
-baseurl: "/fledglings-2026"  # empty "" if using a user/organization root site
 theme: minima
 plugins:
-  - jekyll-remote-theme
+  - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-
-# Minimal Mistakes core settings
-minimal_mistakes_skin: "default"
-locale: "en"
-markdown: kramdown
-highlighter: rouge
-
-# Navigation
-collections:
-  pages:
-    output: true
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: false
-      toc: true
-      toc_sticky: true
-
-# Header nav (from _data/navigation.yml)
-nav:
-  main: true
-
-# Conference basics (optional helpers)
-conference:
-  city: "Gdańsk"
-  dates: "27–29 March 2026"
-  venue: "University of Gdańsk"
