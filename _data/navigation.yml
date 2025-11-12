@@ -1,11 +1,10 @@
-main:
-  - title: "Home"
-    url: /
-  - title: "Venue"
-    url: /venue/
-  - title: "Program"
-    url: /program/
-  - title: "Registration"
-    url: /registration/
-  - title: "Contact"
-    url: /contact/
+- name: Home
+  link: /
+- name: Registration
+  link: /registration/
+- name: Programme
+  link: /programme/
+- name: Travel Info
+  link: /travel/
+- name: Committee
+  link: /committee/
