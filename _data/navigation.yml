@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Venue"
+    url: /venue/
+  - title: "Program"
+    url: /program/
+  - title: "Registration"
+    url: /registration/
+  - title: "Contact"
+    url: /contact/
